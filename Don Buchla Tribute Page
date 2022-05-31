@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Don Buchla Tribute Page</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet"  href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800"/>
+  </head>
+  <body>
+    <header id="title">
+      <h1>Don Buchla</h1>
+        <p>Pioneer of Additive Synthesis and Musical Expression</p>
+    </header>
+    <main id="main">
+      <div id="img-div">
+        <img id="image" src="https://static01.nyt.com/images/2016/09/19/arts/19BUCHLA-obit/19BUCHLA-obit-superJumbo-v2.jpg?quality=75&auto=webp"/>
+        <div id="img-caption"><p>Don Buchla, surrounded by several of his creations</p></div>
+      </div>
+      <div id="tribute-info">
+        <p class="lifetime">Here's a time line of Don's life:</p>
+        <div id="time-line">
+        <ul>
+          <li><p><span>1937 </span>- Born in South Gate, California.</p></li>
+          <li><p><span>1959 </span>- Graduated UC Berkeley, where he studied physics, physiology, and music. </p></li>
+          <li><p><span>1962 </span>- Formed his electronic music equipment company, Buchla and Associates.</p></li>
+          <li><p><span>1963 </span>- Began designing his first modules for the Tape Music Center.</p></li>
+          <li><p><span>1965 </span>- Assembled his modules into the Buchla Modular Electronic Music System (later known as the Series 100).</p></li>
+          <li><p><span>1966 </span>- Began selling commercially.</p></li>
+          <li><p><span>1969 </span>- Series 100 was briefly sold to CBS Musical Instruments.</p></li>
+          <li><p><span>1970 </span>- Release of the Buchla 200 series Electric Music Box.</p></li>
+          <li><p><span>1971 </span>- Created the Buchla Series 500, the first digitally controlled analog synthesizer.</p></li>
+          <li><p><span>1972 </span>- The Music Easel, a small, portable, all-in-one synthesizer was released.</p></li>
+          <li><p><span>1982 </span>- The Buchla 400, with a video display, was released.</p></li>
+          <li><p><span>1987 </span>- Release of the fully MIDI enabled Buchla 700.</p></li>
+          <li><p><span>1990 </span>- Began designing alternative MIDI controllers, such as the Thunder, Lightning, and Marimba Lumina.</p></li>
+          <li><p><span>2005 </span>- Lectured at the NIME-05 (5th International Conference on New Interfaces for Musical Expression), in Canada.</p></li>
+          <li><p><span>2012 </span>- Buchla's intellectual property was acquired by Audio Supermarket, which started Buchla Electronic Musical Instruments (BEMI).</p></li>
+          <li><p><span>2016 </span>- Died at the age of 79 due to complications from cancer.</p></li>
+        </ul>
+
+        </div>
+
+      </div>
+    
+      <div class="fact-mag">If you have time, you should read more about this incredible inventor on 
+      <a id="tribute-link"  href="https://www.factmag.com/2016/09/26/the-genius-of-don-buchla-suzanne-ciani-morton-subotnick-surgeon-alessandro-cortini/" target="_blank">Fact Magazine.<a/>
+      </div>
+    </main>
+  </body>
+</html>
+
+
+* {
+  box-sizing: border-box;
+}
+@media (max-width: 600px) {
+  #img-div img{
+    width: 100%;
+    height: flex;
+  }
+}
+
+main {
+  margin: auto;
+  padding: 0;
+  border: 0;
+}
+
+.fact-mag {
+  border: none;
+  width: felx;
+  padding: 0;
+  text-align: center;
+  background-color: #366993;
+  color: white;
+  border-radius: 10px 10px 10px 10px;
+}
+
+img {
+  display: block;
+  border: 0;
+  margin: auto;
+  overflow: hidden;
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+  justify-content: center;
+  border: 0;
+}
+
+figcaption {
+  border: 0;
+  padding: 0;
+}
+
+.lifetime {
+  text-align: center;
+  margin-bottom: -10;
+  margin-top: 15px;
+}
+
+#time-line {
+  magrin-top: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#title {
+  text-align: center;
+  padding: 0;
+  background-color: #366993;
+  color: white;
+  justify-content: sapce-evenly;
+  margin: auto;
+  border-radius: 30px 30px 0px 0px
+}
+
+p {
+  padding: 0.4rem;
+  margin: auto;
+}
+
+#img-div {
+  background-color: #3e6dff;
+  border-radius: 0px 0px 20px 20px;
+}
+
+#img-caption {
+  text-align: center;
+  color: white;
+}
+
+body {
+  background-color: #3ad6f9;
+  font-family: 'Futura', Arial, Tahoma, sans-serif;
+}
+
+
+span {
+  text-align: left;
+  text-indent: -2px;
+  margin-left: -10;
+  margin-right: 10;
+}
+
+#tribute-link {
+  color: #3ad6f9;
+}
