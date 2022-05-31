@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Build a Survey Form Cert</title>
+    <link rel="stylesheet" href="styles.css"/>
+  </head>
+  <body>
+    <h1 id="title" class="title">Survey Form</h1>
+    <p id="description" name="description" class="description">This is 'free Code Camp' Certification Project 1 for HTML5 and CSS.</p>
+    <p id="instruction">Please fill out this survey with the required information.</p>
+    <form id="survey-form" action="https://survey-form.freecodecamp.rocks">
+      <fieldset>
+        <p>Contact Info.</p>
+        <label id="name-label">Name: <span class="name" ><input id="name" type="text" required placeholder="Mary Lamb" class="inline"/></span></label>
+        <label id="email-label">Email: <span class="email" ><input id="email" type="email" name="email" required placeholder="Ml123@hadalittle.com" class="inline"/></span></label>
+        <label id="number-label">Number: <span><input id="number" type="number" min="6" max="120" name="number" placeholder="69" class="inline"/></span></label>
+      </fieldset>
+      <fieldset>
+        <p>Mood</p>
+        <label id="dropdown-label">
+          <select id="dropdown">
+            <option>(select one)</option>
+            <option value="happy">Happy</option>
+            <option value="sad">Sad</option>
+          </select>
+        </label>
+        <label id="always-radio"><input type="radio" name="frequency" value="always" class="inline" /> Always</label>
+        <label id="sometimes-radio"> <input type="radio" name="frequency" value="sometimes" class="inline"/> Sometimes</label>
+        <label id="never-radio"><input type="radio" name="frequency" value="never"class="inline"/> Never</label>
+      </fieldset>
+      <fieldset>
+        <p>Habits</p>
+        <label id="checkbox"><input type="checkbox" value="coffee" class="inline"/> Coffee</label>
+        <label id="checkbox"><input type="checkbox" value="smoker" class="inline"/> Smoking</label>
+        <label id="checkbox"><input type="checkbox" value="music" class="inline"/> Music</label>
+        <label id="checkbox"><input type="checkbox" value="reader" class="inline"/> Reading</label>
+        <label id="checkbox"><input type="checkbox" value="horny" class="inline"/> Sex</label>
+      </fieldset>
+      <fieldset>
+        <p>Add a comment on what you like doing.</p>
+        <label>
+          <textarea name="comments" rows="3" cols="30" placeholder="I often go places with my pet lamb and..."></textarea>
+        </label>
+      </fieldset>
+      <input id="submit" type="submit" value="Submit" />
+    </form>
+
+  </body>
+</html>
+
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-color: #3a6a93;
+  color: #f5f6f7;
+  font-family: Futura;
+  font-size: 16px;
+}
+
+h1, p {
+  margin: 1em auto;
+  text-align: center;
+}
+
+.description {
+  font-size: .75em;
+  font-style: italic;
+  margin-top: 0;
+}
+
+.title {
+  margin-bottom: 0;
+}
+
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 1em;
+}
+
+fieldset {
+  border: none;
+  padding: 1rem 0;
+}
+
+fieldset:not(:last-of-type) {
+  border-bottom: 3px solid #3b3b4f;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #3d6d9e;
+  border-color: white;
+  min-width: 300px;
+  color: white;
+}
+
+span {
+  margin-left: 20px;
+}
+
+.name {
+  margin-left: 35px;
+}
+
+.email {
+  margin-left: 40px;
+}
