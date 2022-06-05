@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    /><link
+      rel="stylesheet"
+      href="https://kit.fontawesome.com/a2d014ced7.js"
+      crossorigin="anonymous"
+    />
+    
+    <script src="https://kit.fontawesome.com/a2d014ced7.js" crossorigin="anonymous"></script>
+    <title>Product Landing Page</title>
+  </head>
+  <body>
+    <div id="page-wrapper">
+      <header id="header">
+        <div class="logo">
+          <img id="header-img"
+          src="https://github.com/dcsapporo/freeCodeCamp/gimpnine.svg"
+          alt="list nine logo"/>
+        </div>
+        <nav id="nav-bar">
+          <ul>
+            <li><a class="nav-link" href="#features">Details</a></li>
+            <li><a class="nav-link" href="#video">Video</a></li>
+            <li><a class="nav-link" href="#pricing">Pricing</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section id="modular">
+      <div class="container">
+        <h2 class="commitment">Creative designs, flexible performance</h2></div>
+      
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <input name="email" id="email" type="email" placeholder="Enter your email address" required />
+          <input id="submit" type="submit" value="Let's Connect" class="contact" />
+          </form>
+      </section>
+      <div class="container">
+        <section id="features" name="features">
+          <div class="grid">
+            <div class="icon">
+              <i class="fa fa-3x fa-fire"></i>
+            </div>
+            <div class="description" >
+              <h2>Optimal Components</h2>
+              <p>Each module is built according to end users requirements.
+                This allows for affoardability while maintaining quality.
+              </p>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="icon">
+              <i class="fa fa-3x fa-truck"></i>
+            </div>
+            <div class="description">
+              <h2>Reasonable Shipping</h2>
+              <p>Your order is shipped with your pocketbook and needs in mind, while assuring your order arrives safely.
+                Free returns are provided if you are not satisfied.
+              </p>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="icon">
+              <i class="fa fa-3x fa-battery-full"></i>
+            </div>
+            <div class="description">
+              <h2>Quality Assurance</h2>
+              <p>Your needs and purchases are our prime objects, we strive to ensure there are no damages or faults.  Each module is carefully crafted, tested, callibrated, packed and shipped with your satisfaction in mind.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section id="the-4bit-bfa">
+          <iframe id="video" height="315" src="https://youtu.be/l8KSZFl21wM" frameborder="0" allowfullscreen alt="Video of the 4 Bit Biofeedback Arpeggiator" name="video"></iframe>
+        </section>
+        <section id="pricing" name="pricing">
+          <div class="product" id="module-1">
+            <div class="p369or">Passive 3-6-9 OR Gate</div>
+            <h2 class="price">$15</h2>
+            <ol class="details" >
+              <li>Lorem ipsum.</li>
+              <li>Lorem ipsum.</li>
+              <li>Lorem ipsum.</li>
+            </ol>
+          <button class="btn">Select</button>
+          </div>
+          <div class="product" id="module-2">
+            <div class="qwvco">Quad Waveform VCO</div>
+            <h2 class="price">$250</h2>
+            <ol class="details">
+              <li>Lorem ipsum.</li>
+              <li>Lorem ipsum.</li>
+              <li>Lorem ipsum.</li>
+            </ol>
+          <button class="btn">Select</button>
+          </div>
+          <div class="product" id="module-3">
+            <div class="Fba">4Bit BioFeedback Arpeggiator</div>
+            <h2 class="price">$350</h2>
+            <ol class="details">
+              <li>Lorem ipsum.</li>
+              <li>Lorem ipsum.</li>
+              <li>Lorem ipsum.</li>
+            </ol>
+          <button class="btn">Select</button>
+          </div>
+          </section>
+
+  
+        <div class="social-icons">
+          <a class="social" href="https://www.facebook.com/freecodecamp/">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a class="social"  href="https://twitter.com/freecodecamp/">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a class="social" href="https://instagram.com/freecodecamp">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a class="social" href="https://www.linkedin.com/school/free-code-camp/">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a class="social" href="https://www.youtube.com/freecodecamp">
+            <i class="fab fa-youtube"></i>
+          </a>
+        </div>
+  
+
+        <footer>
+          <ul>
+            <li><a  class="legal" href="#">Privacy</a></li>
+            <li><a class="legal" href="#">Terms</a></li>
+            <li><a class="legal" href="#">Contact</a></li>
+          </ul>
+        </footer>
+          <div id="copyright">
+          <span>Copyright 2021, list nine modular</span></div>
+        
+      </div>
+    </div>
+
+  </body>
+</html>
+
+*, ::before, ::after {
+  padding: 0;
+  margin: 0;
+  
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: content-box;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  #img-div img{
+    width: 100%;
+    height: flex;
+  }
+  .social-icons {
+    font-size: 3rem;
+  }
+}
+
+body {
+  margin: 0;
+  font-family: Futura, sserif;
+  color: black;
+  
+  background-color: GhostWhite;
+  display: flex;
+}
+
+#page-wrapper {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding-left: 0;
+  margin-left: 0;
+  display: relative;
+  /*overflow: flex;*/
+  /*float: right;*/
+  
+}
+
+header {
+  display: absolute;
+}
+
+div {
+  padding-bottom: 10px;
+}
+
+#header {
+  font-weight: bold;
+  font-size: 1rem;
+  padding-top: 2rem;
+  display: inline;
+}
+
+.logo {
+
+}
+
+#header-img {
+  position: fixed;
+  top: 0;
+  padding-top: 2rem;
+  padding-left: 3rem;
+}
+
+#nav-bar {
+  background-color: transparent;
+  font-size: 1rem;
+  padding-top: 2rem;
+  position: fixed;
+  top: 9;
+  /*justify-content: inline;margin: 0;*/
+  width: 100%;
+  height: 5%;
+  /*border-right: 6px double;*/
+  padding-left: 39rem;
+  padding-bottom: 2px;
+  overflow: hidden;
+  z-index: 2;
+  float: right;
+  display: flex;
+}
+
+li:not(.details > li) {
+  list-style: none;
+  display: inline-block;
+  vertical-align: auto;
+  padding-right: 3rem;
+}
+
+nav-r > ul > li  {
+  display: inline;
+  margin-left: 20%;
+  list-style: none;
+}
+
+.nav-link {
+  display: inline;
+  color: black;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  background-color: lightgray;
+}
+
+h2 {
+  padding-top: 5rem;
+  padding-left: 5rem;
+  position: flex;
+  text-align: center;
+}
+
+.commitment {
+  font-size: 2rem;
+  justify-content: center;      
+  white-space: nowrap;
+}
+
+.container {
+  padding-top: 1rem;
+}
+
+section[id="modular"] {
+  display: grid;
+}
+
+#modular {
+  padding-bottom: 0rem;
+  margin: 0;
+}
+
+#form {
+  margin: auto;
+  padding-top: .3rem;
+  padding-left: 5rem;
+}
+
+#email {
+  justify-content: left;
+}
+
+#submit {
+  display: block;
+  margin: auto;
+}
+
+
+
+#features {
+  padding-top: 3rem;
+  display: block;
+  position: center;
+  padding: 0 25%  25% ;
+  padding-bottom: 1rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-rows: repeat(1, .25fr);
+  padding-bottom: 0;
+  position: inline-block;
+}
+
+.icon {
+  position: inline;
+  padding-bottom: 0rem;
+}
+
+.fa, .fa-3x, .fa-fire {
+  padding-bottom: 0;
+  position: inline;
+}
+.fa, .fa-3x, .fa-truck {
+  padding-top: 1rem;
+  padding-bottom: 0;
+  position: inline;
+}
+.fa, .fa-3x, .fa-battery-full {
+  padding-bottom: 0;
+  position: inline;
+}
+
+.description {
+  padding-top: 0;
+  position: inline-block;
+}
+
+.description > h2 {
+  padding-top: 0;
+  position: inline-block;
+  padding-bottom: 1rem;
+}
+
+p {
+  text-indent: 5rem;
+}
+
+#video {
+  padding-top: 3rem;
+  display: flex;
+  margin: auto;
+  padding-bottom: 6rem;
+}
+
+#pricing {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    grid-column: 1 / 1;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    background-color: #00beef;
+    /*position: relative;*/
+}
+
+.product {
+  padding: 0;
+  padding-bottom: 0rem;
+}
+
+#module-1, #module-2, #module-3 {
+  padding-bottom: 0;
+}
+
+.p369or, .qwvco, .Fba {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: 1rem;
+  padding-left: 1rem;
+  padding-bottom: -12rem;
+  text-align: center;
+}
+
+price {
+  padding-top: -12rem;
+  position: relative;
+  text-align: center;
+  display: block;
+}
+
+.details {
+  padding-top: 1rem;
+  padding-left: 9rem;
+  margin:auto;
+  display: block;
+  justify-content: center !important;
+}
+
+.details > li {
+  padding-left: 1rem !important;
+  margin: auto !important;
+  padding-bottom: 2rem !important;
+}
+
+.btn {
+  margin-left: 10rem;
+  margin-bottom: 2rem;
+  display: block;
+  position: center;
+}
+
+footer {
+  padding-left: 24rem;
+}
+
+footer > ul > li {
+  /*position: inline-block;*/
+}
+
+
+.social {
+  /*position: relative;
+  display: inline-block;*/
+  padding-top: 3rem;
+  padding-left: 10rem;
+  color: black;
+  text-decoration: none;
+}
+
+.legal {
+  color: black;
+  text-decoration: none;
+  display: inline;
+}
+
+a:hover {
+  background-color: lightgray;
+}
+
+#copyright {
+  padding-left: 25rem;
+  position: center;
+  padding-top: 1rem;
+  padding-bottom: 0;
+}
