@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap"
+      rel="stylesheet"
+    />
+    
+    
+    <title>Personal Portfolio Webpage</title>
+  </head>
+  <body>
+    <!-- START NAV -->
+     <div id="page-wrapper">
+      <header id="header">
+        <div class="logo">
+          <img id="header-img"
+          src="https://github.com/dcsapporo/freeCodeCamp/gimpnine.svg"
+          alt="dcsapporo"/>
+        <h1 class="site-name">dcsapporo</h1>  
+        </div>
+        <nav id="navbar">
+          
+          <ul>
+            <li><a class="nav-link" href="#welcome-section">About</a></li>
+            <li><a class="nav-link" href="#projects">Projects</a></li>
+            <li><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+          </nav>
+        </header>
+      </div>
+  <!-- END NAV -->
+
+  <!-- START WELCOME SECTION -->
+
+    <section id="welcome-section" class="welcome-section">
+      <h1>Hey I am dcsapporo</h1>
+      <p>a creative developer</p>
+    </section>
+
+  <!-- END WELCOME SECTION -->
+<!--
+  <!-- START PROJECTS SECTION -->
+
+  <section id="projects" class="projects-section" >
+      <h2 class="projects-section-header">These are some of my projects</h2>
+      <div type="display: grid">
+
+      <div class="projects-tile">
+        <a
+          href="https://codepen.io/freeCodeCamp/full/zNqgVx"
+          target="_blank"
+          class="project project-tile"
+        >
+          <img
+            class="project-image"
+            src="https://cdn.freecodecamp.org/testable-projects-fcc/images/image.jpg"
+            alt="project1"
+          />
+          <p class="project-title">
+            <span class="code">&lt;</span>
+            Tribute Page
+            <span class="code">&#47;&gt;</span>
+          </p>
+        </a>
+
+
+      </div>
+      <div class="projects-tile">
+        <a
+          href="https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-tribute-page-project/build-a-tribute-page"
+          target="_blank"
+          class="project project-tile"
+        >
+          <img
+            class="project-image"
+            src="https://cdn.freecodecamp.org/testable-projects-fcc/images/image.jpg"
+            alt="project2"
+          />
+          <p class="project-title">
+            <span class="code">&lt;</span>
+            Tribute Page
+            <span class="code">&#47;&gt;</span>
+          </p>
+        </a>
+
+
+      </div>
+    </div>
+      <a
+        href="https://codepen.io/FreeCodeCamp/"
+        class="btn btn-show-all"
+        target="_blank"
+        >Show all<i class="fas fa-chevron-right"></i
+      ></a>
+    </section>
+-->
+  <!-- END PROJECTS SECTION -->
+
+  <!-- START CONTACT SECTION -->
+
+
+<section id="contact" class="contact-section">
+      <div class="contact-section-header">
+        <h2>Let's work together...</h2>
+        <p>How do you take your coffee?</p>
+      </div>
+      <div class="contact-links">
+        <a
+          href="https://www.facebook.com/dcsapporo"
+          target="_blank"
+          class="btn contact-details"
+          ><i class="fab fa-facebook-f"></i> Facebook</a
+        >
+        <a
+          href="https://www.freecodecamp.org/dcsapporo"
+          target="_blank"
+          class="btn contact-details"
+          ><i class="fab fa-freecodecamp"></i> freeCodeCamp</a
+        >
+        <a
+          id="profile-link"
+          href="https://github.com/dcsapporo/freeCodeCamp"
+          target="_blank"
+          class="btn contact-details"
+          ><i class="fab fa-github"></i> GitHub</a
+        >
+        <a
+          href="https://twitter.com/dcsapporo67"
+          target="_blank"
+          class="btn contact-details"
+          ><i class="fab fa-twitter"></i> Twitter</a
+        >
+        <a href="/cdn-cgi/l/email-protection#2f4a574e425f434a6f4a574e425f434a014c4042" class="btn contact-details"><i class="fas fa-at"></i> Send a mail</a
+        >
+        <a href="tel:080-656-66223" class="btn contact-details"
+          ><i class="fas fa-mobile-alt"></i> Call me</a
+        >
+      </div>
+    </section>
+
+
+
+      
+        
+<!---->
+  <!-- END CONTACT SECTION -->
+
+  <!-- START FOOTER SECTION -->
+
+     
+  
+
+        <footer>
+          <div id="copyright">
+          <span>Copyright 2022, dcsapporo</span></div>
+        </footer>
+ <!-- END FOOTER SECTION -->        
+ 
+ 
+ *, ::before, ::after {
+  padding: 0;
+  margin: 0;
+  font-family: Futura, sans-serif;
+  color: black;
+  text-align: center;
+}
+
+:root {
+  --header-nav-color:  orangered;
+}
+
+body {
+  margin: 0;
+  background-color: GhostWhite;
+  background-image: url("image.jpeg");
+  background-position: center;
+  background-repeat: repeat-x; 
+}
+/* Nav Bar CSS starts */
+
+#page-wrapper {
+  position: fixed;
+  width: 100%;
+  height: 3.5rem;
+  padding-top: 0;
+  padding-left: 0;
+  background: var(--header-nav-color);
+  margin-left: auto;
+  margin-right: auto;
+ }
+
+div {
+  padding-bottom: 10px;
+  position: flex;
+  display: flex;
+}
+
+#header {
+  font-weight: bold;
+  font-size: 1rem;
+  padding-top: 1rem;
+  display: flex;
+  position: flex;
+}
+
+#header-img {
+  position: fixed;
+  top: 0;
+  padding-top: 1rem;
+  padding-left: 3rem;
+  float: left;
+  flex-wrap: warp;
+  z-index: 2;
+}
+
+.site-name {
+  position: fixed;
+  text-align: center;
+  top: 1;
+  padding: .15px 0px 5px 0px;
+  width: 100%;
+  height: 6%;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 1;
+  flex-wrap: warp;
+}
+
+#navbar {
+  background-color: transparent;
+  font-size: 1rem;
+  padding: 42px 0px 5px 0px;
+  position: fixed;
+  top: 0%;
+  width: 100%;
+  height: 6%;
+  z-index: 2;
+  display: inline-block;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#navbar li {
+  list-style: none;
+  display: inline;
+  padding: 5px;
+}
+
+.nav-link {
+  display: inline;
+  color: black;
+  text-decoration: none;
+  top: 0%;
+}
+
+.nav-link:hover {
+  background-color: lightgray;
+  padding: .15rem;
+  border-radius: 10%;
+}
+/* Nav Bar CSS ends */
+
+/* Welcome CSS starts */
+.welcome-section {
+  position: relative;
+  justify-content: middle; 
+  text-align: center;
+  padding-top: 3rem;
+  top: 4.1rem;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #00beef;
+  z-index: -1;
+  width: 75%;
+  height: 50%;
+  overflow: hidden;
+}
+/* Welcome CSS ends */
+
+/* Projects CSS starts */
+
+.project-section, h2 {
+    position: relative;
+  justify-content: middle;
+    padding: 5px 0px 5px 0px;
+    margin-top: 25px;
+    margin-left: auto;
+  margin-right: auto;
+    width: 100%;
+    height: auto;
+    background-color: #69beef;
+    z-index: -1;
+}
+
+.projects-tile {
+  grid-auto-flow: column;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.project-image {
+  width: 75%;
+  height: 200px;
+}
+
+@media (max-width: 800px) {
+   .project-image {
+  width: 100%;
+}
+ }
+/* Projects CSS ends */
+
+/* Contact CSS starts */
+
+.contact-section-header,  contact-links, i {
+  position: relative;
+  justify-content: middle;
+  padding: 10px 0px 5px 0px;
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: none;
+  flex-wrap: wrap;
+  padding-top: 0.15rem;
+ /*display: flex; */
+ }
+ 
+ .contact-section-header > p {
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+ 
+.contact-links {
+  position: relative;
+  justify-content: middle;
+  padding: 10px 0px 5px 0px;
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: none;
+  background-color: var(--header-nav-color);
+}
+
+a:hover {
+  background-color: lightgray;
+  border-radius: 10%;
+}
+
+.btn {
+  position: middle;
+  padding: 0 1rem 0 1rem ;
+  justify-content: middle;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+}
+/* Contact CSS ends */
+
+/* FOOTER CSS starts */
+
+footer, #copyright, span {
+  width: 100%;
+  height: -10px;
+  margin-top: 20px;
+  padding: 10px 0px 5px 0px;  
+}
+/* FOOTER CSS ends */
