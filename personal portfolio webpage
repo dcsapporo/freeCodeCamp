@@ -313,11 +313,13 @@ div {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  z-index: -1;
 }
 
 .project-image {
   width: 75%;
   height: 200px;
+  z-index: -1;
 }
 
 @media (max-width: 800px) {
