@@ -144,7 +144,7 @@
           class="btn contact-details"
           ><i class="fab fa-twitter"></i> Twitter</a
         >
-        <a href="/cdn-cgi/l/email-protection#2f4a574e425f434a6f4a574e425f434a014c4042" class="btn contact-details"><i class="fas fa-at"></i> Send a mail</a
+        <a href="mailto:dcsapporo@gmail.com" class="btn contact-details"><i class="fas fa-at"></i> Send a mail</a
         >
         <a href="tel:080-656-66223" class="btn contact-details"
           ><i class="fas fa-mobile-alt"></i> Call me</a
